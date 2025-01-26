@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.head {
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 75px;
+}
+
+.nav-bar > img {
+    height: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 10px 100px 50px 100px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+ul {
+    font-size: 18px;
+}
+
+.head-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap-reverse;
+}
+
+.head-image {
+    max-width: 600px;
+    flex: 1 1 auto;
+}
+
+.head-image > img {
+    width: 100%;
+}
+
+.head-main-description {
+    width: 400px;
+}
+
+.head-main-description > h1 {
+    font-size: 48px;
+}
+
+.head-main-description > * {
+    margin-bottom: 10px;
+}
+
+.head-main-description > button {
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 18px;
+}
+
+.body-characters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    gap: 20px;
+    text-align: center;
+}
+
+.marvel-characters-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 50px;
+    justify-content: center;
+}
+
+.character {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    border: 5px lightblue solid;
+    padding: 10px;
+    border-radius: 15%;
+    font-size: 16px;
+}
+
+.character > img {
+    width: 90%;
+}
+
+.body-quote {
+    background-color: #E5E7EB;
+    font-size: 25px;
+    padding: 100px;
+}
+
+.body-quote > * {
+    margin: 0 auto;
+    max-width: 600px;
+    color: #1F2937;
+}
+
+.speaker {
+    text-align: right;
+    font-weight: 900;
+    margin-top: 14px;
+}
+
+.sign-up-container {
+    padding: 50px 200px;
+}
+
+.sign-up {
+    display: flex;
+    max-width: 800px;
+    padding: 40px 100px;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sign-up > div > div:first-child {
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.sign-up button {
+    padding: 4px 10px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    flex-shrink: 0;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    height: 75px;
+}
+
+button:hover {
+    cursor: pointer;
+}
